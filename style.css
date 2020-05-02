@@ -1,0 +1,66 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color:rgba(20, 208, 20,0.1);
+}
+
+#navbar{
+	height: 100%;
+  	width: 270px;
+  	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	left: 10;
+  	padding-top: 20px;
+	border-right: 2px solid grey;
+	display: block;
+	line-height: 25px;
+	font-size: 20px;
+}
+
+
+.nav-link{
+	margin-left: 10px;
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+
+.nav-link:hover{
+	font-size: 20px;
+	color:white;
+	border-bottom: red;
+	border-left:4px solid blue;
+	border-right:4px solid blue; 
+	background-color:rgba(0, 180, 0,1);
+}
+
+header{
+	font-size: 30px;
+	font-weight: bold;
+	color:rgba(0, 180, 0,1);
+}
+
+#main-doc{
+	margin-left: 290px; 
+  	font-size: 20px; 
+  	padding: 20px 10px;
+}
+
+p, ul{
+	margin-left: 20px;
+}
+
+
+#hello-world-func, 
+#declaring-var-func,
+#declaring-scope-func, 
+#declaring-constants-func,
+#declaring-if-else-func{
+	margin-left: 30px;
+	width: 90%;
+	background-color:rgba(128,128,128,0.1);
+	line-height:30px;
+	height: 40px;
+	padding: 20px;
+}
